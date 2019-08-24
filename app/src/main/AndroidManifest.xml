@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.communatio">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +12,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Rourkela"></activity>
+        <activity android:name=".Activity_post" />
+        <activity android:name=".AppliedEvents" />
+        <activity android:name=".UpiPayment" />
+        <activity android:name=".ConfirmEvent" />
+        <activity android:name=".Profile" />
+        <activity android:name=".ApplyEvents" />
+        <activity android:name=".Nitsdetail" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

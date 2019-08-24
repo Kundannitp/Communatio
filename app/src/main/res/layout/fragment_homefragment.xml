@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#032535">
+
+    <SearchView
+        android:id="@+id/searchNits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:queryHint="Search for college"
+        android:textSize="20dp"
+        android:outlineSpotShadowColor="#FFDD67"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

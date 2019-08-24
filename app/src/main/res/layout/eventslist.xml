@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?android:attr/listSeparatorTextViewStyle"
+    app:cardElevation="7dp"
+    app:cardCornerRadius="17dp"
+    app:cardUseCompatPadding="false"
+    android:layout_margin="7dp"
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/shapeevents"
+        >
+
+        <TextView
+            android:id="@+id/Collegename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textColor="#f8f8f8"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/eventname"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginStart="16dp"
+            android:text="TextView"
+            android:textColor="#f8f8f8"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            android:textColor="#f8f8f8"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/daysago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            android:textColor="#f8f8f8"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fee"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/logo"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:src="@drawable/ic_home_black_24dp"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.936"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="304dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/nitplogo"
+            app:civ_border_color="#248EA9"
+            app:civ_border_width="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.508" />
+
+        <TextView
+            android:id="@+id/Eventtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="TextView"
+            android:textColor="#f8f8f8"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/eventname"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Collegename"
+            app:layout_constraintVertical_bias="0.576" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

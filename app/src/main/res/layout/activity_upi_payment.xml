@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/amount_et"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UPI ID"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/upi_id"
+        android:layout_below="@+id/amount_et"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/name"
+        android:layout_below="@+id/upi_id" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/note"
+        android:layout_below="@+id/name" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:id="@+id/send"
+        android:layout_below="@+id/note"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="send by upi"/>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:id="@+id/confirm1"
+        android:layout_below="@+id/note"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Confirm Apply "/>
+
+
+</RelativeLayout>

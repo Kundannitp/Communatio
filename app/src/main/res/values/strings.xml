@@ -1,3 +1,58 @@
 <resources>
-    <string name="app_name">Communatio</string>
+        <string name="app_name">Communatio</string>
+        <string name="group1">Info</string>
+        <string name="group2">Clubs</string>
+        <string name="group4">Curriculum</string>
+        <string name="group5">Giant Start-Ups</string>
+        <string name="group6">Contact-Admin</string>
+        <string name="group7">Location</string>
+
+        <string-array name="group1">
+            <item>National Institute of Technology Rourkela (NITR), formerly Regional Engineering College Rourkela (REC Rourkela), is a publicly funded premier institute of higher learning for engineering, science and technology located in the steel city of Rourkela, Odisha, India. It is one of the 31 National Institutes of Technology in India and has been recognized as an Institute of National Importance by the National Institutes of Technology Act, 2007. It is ranked 16 in the NIRF Rankings 2019 of Indian engineering universities.</item>
+        </string-array>
+
+
+        <string-array name="group2">
+            <item>AICHE</item>
+            <item>E-CELL</item>
+            <item>ASME</item>
+            <item>CLARION</item>
+        </string-array>
+
+
+        <string-array name="group3">
+            <item>Vikram Sarabhai Hall of Residence</item>
+            <item>Kiran Majumdar Shaw Hall of Residence</item>
+            <item>M.Visweswaraya Hall of Residence</item>
+            <item>C. V. Raman Hall of Residence</item>
+        </string-array>
+
+        <string-array name="group4">
+            <item>Curriculum</item>
+        </string-array>
+
+        <string-array name="group5">
+            <item>Sulekha</item>
+            <item>Practo</item>
+            <item>TaxiForSure</item>
+            <item>Storypick</item>
+        </string-array>
+
+        <string-array name="group6">
+            <item>Mobile:-6389985623</item>
+            <item>Email:-pradeep@nitr.ac.in</item>
+        </string-array>
+
+        <string-array name="group7">
+            <item>Map</item>
+        </string-array>
+
+
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/icon"
+        android:id="@+id/icon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write Blog"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Post Title"
+        android:maxLines="5"
+        android:lines="5"
+        android:inputType="textMultiLine"
+        android:id="@+id/post_title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/post_btn"
+        android:text="Post"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        />
+
+</RelativeLayout>
